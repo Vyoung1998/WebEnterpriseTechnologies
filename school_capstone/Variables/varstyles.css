@@ -101,6 +101,7 @@ table {
   border-color: black;
   border-width: 0.5px;
   padding: 5px;
+  font-size: 0.1em;
 }
 
 .chart th {
