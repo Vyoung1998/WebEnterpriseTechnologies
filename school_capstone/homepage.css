@@ -1,0 +1,62 @@
+/*CSIS 410: Web Development: Foundations Assignment#
+By: Victoria Young
+Date Due: 5/25/2026
+References: 
+Powers, D. (2021). Php 8 solutions : Dynamic web design and development made easy. Apress L. P..
+Honesty Statement: I promise I wrote this cord, line by line,
+not using any help or any previous code.
+This is the homepage.css file for main menu to hold the placeholder links for 
+rest of this course. It is connected to homepage.php.
+ */
+/*these are styles for basic elements*/
+ h1 
+ {
+    color: #050609;
+    text-align: center;
+ }
+
+ html 
+ {
+    background-color:whitesmoke ;
+     margin: 14px;
+ }
+
+
+li 
+{
+    padding: 4px;
+}
+
+ h2 
+ {
+    color: #3C0000;
+    text-align: center;
+ }
+
+ /*these are the three classes*/
+ .myintro
+  {
+    border-color: black;
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
+ }
+
+.menu
+ {
+    
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    border-color: black;
+    border-width: 0.5px;
+    border-style: solid;
+
+ }
+
+.footer
+{
+   text-align:center;
+   padding: 5px;
+}
