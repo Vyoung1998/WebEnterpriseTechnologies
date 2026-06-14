@@ -6,4 +6,4 @@
     </ul>
 </nav>
 
-<!--this was found from the book provided in class already sited on main pages.-->
+<!--added this secondary menu, profile only shows when logged in.-->
