@@ -1,0 +1,81 @@
+
+/*styles the menu for all pages*/
+
+.menu nav ul {
+  list-style-type: none; /* Removes dots */
+  padding-inline-start: 0; 
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.menu nav li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    padding: 15px;
+    margin: 10px;
+   
+}
+.menu nav li a:hover {
+  background-color: #ce8c66;         
+}
+
+.wrapper {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 20px;
+  background-color: white;
+  margin:5px;
+}
+
+.menutitle{
+  color:#55251D;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*footer*/
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+}
+
+.footer-left {
+  display: flex;
+  align-items: left;
+  padding: 10px 20px;
+
+}
+
+.footer-left a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 5px;
+}
+
+.footer a:hover {
+  background-color: #ce8c66;         
+}
+
+.footer-right {
+  align-items: right;
+  display: flex;
+}
