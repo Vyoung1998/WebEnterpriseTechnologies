@@ -26,7 +26,7 @@ require_once 'auth.php';
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        <title>Sessions: Home </title>
+        <title>Sessions: Profile </title>
         <link rel="stylesheet" href="styles.css">
         <meta charset="UTF-8">
         <meta name="description" content="PHP CSS and HTML Website CAPSTONE.">
