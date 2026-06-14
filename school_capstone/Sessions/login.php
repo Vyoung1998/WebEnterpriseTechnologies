@@ -31,7 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
       exit();
     } else {
-        echo "<script Invalid username or password.";
+        echo "Invalid Login.";
+        echo "<a href = 'login.php'>Login</a>";
     }
 }
 ?>
