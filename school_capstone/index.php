@@ -46,7 +46,7 @@ not using any help or any previous code.
             <li><a href="Variables/home.php"><h3>Module 1: Week 1 Variables</h3></a></li>
             <li><a href="Forms/home.php"><h3>Module 2: Week 2 Forms</h3></a></li>
             <li><a href="Arrays/home.php"><h3>Module 3: Week 3 Arrays</h3></a></li>
-            <li><h3>Module 4: Week 4 Sessions</h3></li>
+            <li><a href="Sessions/login.php"><h3>Module 4: Week 4 Sessions</h3></a></li>
             <li><h3>Module 5: Week 5 CMS Sessions</h3></li>
             <li><h3>Module 6: Week 6 Database</h3></li>
             <li><h3>Module 8: Week 8 CMS Database</h3></li>
