@@ -1,0 +1,84 @@
+/*styles the menu for all pages*/
+/*the following navigation menu code is inspired by (Ruvalcaba et al. 2024). Chapter 7*/
+.header ul {
+    display: flex; /*flex direction is row by default*/
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+}
+.header li {
+  padding: .5em 1em;
+}
+.header a {
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: .5em;
+}
+
+.header h2 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+/*title and logo*/
+.logo {
+  display: flex;
+  color: black;
+  height: 100px;  
+}
+
+.title {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+
+/*footer*/
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: left;
+  padding: 10px 20px;
+
+}
+
+.footer-left a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 5px;
+}
+
+.footer a:hover {
+  background-color: #ce8c66;         
+}
+
+.footer-right {
+  align-items: right;
+  display: flex;
+}
