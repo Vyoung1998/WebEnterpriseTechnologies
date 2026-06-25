@@ -1,37 +1,6 @@
-<!--
-Purpose of this page: This is the cart. I will put the basic cart functions. 
-Honesty Statement: I promise I wrote this code, line by line,
-not using any help or any previous code.
--->
 <?php
-   if (session_status() === PHP_SESSION_NONE) {
-    session_start();//check if session is on, then start if it's not
-   }
-//allowed for guests
-   ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        <title>CMS Sessions: Cart</title>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-        <meta name="description" content="PHP CSS and HTML Website CAPSTONE.">
-        <meta name="author" content="Victoria Young">
-        
-    </head>
-
-    <body>
-<!--menu-->
- <?php include 'header.php'; ?>
-<!--end menu-->
-
-<!--content-->
-<h1>Cart and Checkout Goes Here</h1>
-
-<?php
-//include 'ecom/products.php'; didn't work so I hardcoded the array here instead to see if it would work.
-$a = [
+//information products
+$products = [
         "item1"=>["id"=>1,
         "Name"=>"Blue Baseball Hat",
         "Description"=> "Crafted from 100% bio-washed cotton twill for a soft, worn-in feel from the very first wear. Breathable Comfort: Features six embroidered eyelets and an integrated sweatband that wicks moisture to keep you cool. Tailored Fit: An unstructured, low-profile 6-panel design provides a relaxed fit that contours perfectly to your head. Easily customize the fit with the antique metal buckle closure at the back.",
@@ -102,32 +71,3 @@ $a = [
         "Quantity"=>35,
         "Price"=>16.99],
     ];
-
-$b = $_SESSION['cart'];//gets cart to compare
-//w3schools and PHP Doc say to filter to compare
-
-$result=array_intersect($a, array_filter($b)); 
-$result = implode(',', $result);//convert to comma separated list 
-
-//conversion to string
-if(empty($_SESSION['cart'])){
-    echo "<p>Your Cart is currently empty.<br>";
-    echo "<a href='store.php'>Continue Shopping</a>";
-}
-else {
-    //compare cart array with products.php array and print the difference
-    
-    echo '<pre>';
-    print_r($result);
-    echo '</pre>';
-  }
-?>
-<br>
- 
-<!--end content-->
-
-<!--footer-->
-    <?php include 'footer.php';?>
-<!--end footer-->
-    </body>
-</html>

@@ -1,3 +1,10 @@
+/*entire site*/
+html {
+  background-color: #FAFFFD;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 150px;
+}
+
 /*styles the menu for all pages*/
 /*the following navigation menu code is inspired by (Ruvalcaba et al. 2024). Chapter 7*/
 .header ul {
@@ -6,7 +13,7 @@
     flex-wrap:wrap;
 }
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color:#FAFFFD;
 }
 .header li {
   padding: .5em 1em;
@@ -17,8 +24,13 @@
     color: rgb(0, 0, 0);
     text-align: left;
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: #FAFFFD;
     padding: .5em;
+    border: solid 1px black;
+}
+.header a:hover{
+  background-color: rgb(131, 167, 245);
+
 }
 
 .header h2 {
@@ -39,9 +51,14 @@
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background-color: #000000;
+}
 
 /*footer*/
 .footer {
@@ -51,7 +68,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: #cacaca;
   position: fixed;
 }
 
@@ -74,11 +91,212 @@
   padding: 5px;
 }
 
-.footer a:hover {
-  background-color: #ce8c66;         
-}
 
 .footer-right {
   align-items: right;
   display: flex;
+}
+
+
+/*logout/login button*/
+button {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(131, 167, 245);
+}
+
+/*contact information page styling*/
+.contact {
+  color:#000000;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1em;
+  background-color: white ;
+  padding:10px;
+  margin: 10px;
+  text-align: center;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#134cad;
+}
+.contact li {
+  list-style-type: none; /* Removes dots */
+}
+
+.logout {
+  text-decoration: none;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+
+/*form*/
+form {
+  background-color: #a1b2b4;
+  padding: 30px;
+  text-align: center;
+}
+
+label {
+  display: block;
+align-items: center;
+}
+
+input[type=password], select {
+  width: 75%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text], select {
+  width: 75%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 75%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  cursor: pointer;
+}
+
+/*styling the results page*/
+.message {
+  padding: 3px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#331813;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border: none;
+   border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(131, 167, 245);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffffff;}
+
+
+/*home pages*/
+
+.content {
+  padding: 40px;
+   text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+    background-color: #FAFFFD;
+    padding: .5em;
+    border: solid 1px black;
+}
+
+
+.content a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.store-container {
+     display: flex; /*flex direction is row by default*/
+    flex-wrap:wrap;
+}
+
+.product-listing {
+    text-align: center;
+    display: block;
+    background-color: #FAFFFD;
+    width: 45%;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.product-listing a {
+  text-decoration: none;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product-listing button {
+    text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  background-color: #a1b2b4;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(83, 136, 70);
+  color: white;
 }

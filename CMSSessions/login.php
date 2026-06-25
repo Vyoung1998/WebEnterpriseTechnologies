@@ -1,18 +1,6 @@
 <!--
-CSIS 410: Web Development: CMS Sessions Assignment
-By: Victoria Young
-Date Due: 6/22/2026
-
-References: 
-Murach, J., Harris, R., & Dlamater, M. (2022). Murach’s PHP and MySQL (A. Boehm & L. Cooper, Eds.; 4th ed.) [Paperback]. Mike Murach & Associates, Inc.
-
-Powers, D. (2021). Php 8 solutions : Dynamic web design and development made easy. Apress L. P.
-
-Ruvalcaba, Z., Boehm, A., & Delamater, M. (2024). Murach’s HTML and CSS (J. Murach & S. McCoy, Eds.; 6th ed.) [Paperback]. Mike Murach & Associates, Inc.
-
-W3Schools.com. (2026). Retrieved June 14, 2026, from https://www.w3schools.com/
-
-Purpose of this page: This is the login page. It will be where the three types of users can login or redirect to "register" a new user if needed.
+Purpose of this page: This is the login page. 
+It will be where the three types of users can login or redirect to "register" a new user if needed.
 
 Honesty Statement: I promise I wrote this code, line by line,
 not using any help or any previous code.
@@ -57,8 +45,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       exit();
 } 
     else {
-        echo "Invalid Login.";
-        echo "<a href = 'login.php'>Login</a>";
+        echo "Invalid Login. <br>";
+        echo "<button><a href = 'login.php'>Login</a></button>";
         exit();
         }
 }
@@ -84,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!--content-->
     <!--login form-->
     <h1>Login User</h1>
-        <form action="." method="POST">
+        <form action=""  method="POST">
             <div class="username">
                 <label for="username">Username</label>
                 <input type="password" placeholder="Enter Username" name="username" required>

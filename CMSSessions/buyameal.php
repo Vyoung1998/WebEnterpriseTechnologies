@@ -1,17 +1,4 @@
 <!--
-CSIS 410: Web Development: CMS Sessions Assignment
-By: Victoria Young
-Date Due: 6/22/2026
-
-References: 
-Murach, J., Harris, R., & Dlamater, M. (2022). Murach’s PHP and MySQL (A. Boehm & L. Cooper, Eds.; 4th ed.) [Paperback]. Mike Murach & Associates, Inc.
-
-Powers, D. (2021). Php 8 solutions : Dynamic web design and development made easy. Apress L. P.
-
-Ruvalcaba, Z., Boehm, A., & Delamater, M. (2024). Murach’s HTML and CSS (J. Murach & S. McCoy, Eds.; 6th ed.) [Paperback]. Mike Murach & Associates, Inc.
-
-W3Schools.com. (2026). Retrieved June 14, 2026, from https://www.w3schools.com/
-
 Purpose of this page: This is the Buy a Meal page. Users can either donate money or buy meals valued at different price points. 
 $15 meal feeds one person. $50 meal feeds a family. $150 feeds five families.
 
@@ -40,8 +27,27 @@ not using any help or any previous code.
 <!--end menu-->
 
 <!--content-->
+<div class="content">
 <h1>Donate by buying a meal here</h1>
-<h2>Also support by volunteering to cook Saturdays, use our catering services, or attend our monthly cookouts.</h2>
+
+<h3>Also support by volunteering to cook Saturdays, use our catering services, or attend our monthly cookouts.</h3>
+
+        <h3>Fill out the form to volunteer!</h3>
+        <button><a href="contact.php"><p>Get in Touch to Help</p></a></button>
+        <h3>Check out our blog to learn about past events.</h3>
+        <button><a href="blog.php"><p>Read About It</p></a></button>
+        <br>
+
+<br>
+ <img src="images/feedthemultitudeproject.png" alt="The Feed the Multitude buy a meal event, a man handing someone food, donations, and a kid smiling" height=700px>
+   
+<h2>5$ feeds one person, 25$ feeds a family, 100$ feeds a community.</h2>
+<button  type="submit" onclick="alert('Thank you!');">Donate $5</button>
+&nbsp;
+<button  type="submit" onclick="alert('Thank you!');">Donate $25</button>
+&nbsp;
+<button  type="submit" onclick="alert('Thank you!');">Donate $100</button>
+</div> 
 <!--end content-->
 <!--footer-->
     <?php include 'footer.php';?>
