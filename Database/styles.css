@@ -1,0 +1,102 @@
+
+/*styles the menu for all pages*/
+
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+   
+}
+nav a:hover {
+  background-color: #fab8d4;         
+}
+
+
+/*footer*/
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+}
+
+.footer-left {
+  display: flex;
+  align-items: left;
+  padding: 10px 20px;
+
+}
+
+.footer-left a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 5px;
+}
+
+.footer a:hover {
+  background-color: #fab8d4;         
+}
+
+.footer-right {
+  align-items: right;
+  display: flex;
+}
+
+.blogpost {
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentbox {
+ background-color: #fab8d4;
+ text-align: left;
+ margin: 4px;
+ padding: 10px;
+ border: 1px solid white;
+}
+
+button {
+    text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding: 10px;
+  margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(83, 136, 70);
+  color: white;
+}
+
+html {
+    padding-bottom: 100px;
+}
