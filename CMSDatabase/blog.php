@@ -104,7 +104,7 @@ include 'connect.php';
                 <label for='blogContents'>Contents:</label><br>
                 <input type='text' name='blogContents' placeholder='Blog Contents Here' required><br>
                 <label for='image_url'>Image URL:</label><br>
-                <input type='text' name='blogContents' placeholder='write like this: folder/imagename.type'><br>
+                <input type='text' name='image_url' placeholder='write like this: folder/imagename.type'><br>
                 <label for='userID'>User ID:</label><br>
                 <input type='number' name='userID' placeholder='Put 2 for Publisher' required><br>
                 <button type='submit' name='submit'>Add Blog Post</button>
