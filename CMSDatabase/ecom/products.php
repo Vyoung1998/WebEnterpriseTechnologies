@@ -1,0 +1,73 @@
+<?php
+//information products
+$products = [
+        "item1"=>["id"=>1,
+        "Name"=>"Blue Baseball Hat",
+        "Description"=> "Crafted from 100% bio-washed cotton twill for a soft, worn-in feel from the very first wear. Breathable Comfort: Features six embroidered eyelets and an integrated sweatband that wicks moisture to keep you cool. Tailored Fit: An unstructured, low-profile 6-panel design provides a relaxed fit that contours perfectly to your head. Easily customize the fit with the antique metal buckle closure at the back.",
+        "Image"=>"ecom/productimages/1.png",
+        "Quantity"=>25,
+        "Price"=>8.99],
+
+       "item2"=>["id"=>2,
+        "Name"=>"Tote Bag",
+        "Description"=> "100% heavy-duty cotton canvas.Reinforced bottom panel and comfortable, double-stitched shoulder straps. One interior zippered security pocket.",
+        "Image"=>"ecom/productimages/2.png",
+        "Quantity"=>25,
+        "Price"=>9.99],
+
+        "item3"=>["id"=>3,
+        "Name"=>"T-Shirt - White",
+        "Description"=> "Relaxed, unisex fit that looks great on all body types. 100% premium combed and ring-spun cotton. Ultra-soft, breathable, and pre-shrunk for the perfect fit. Feed the Multitude graphic to support our mission.",
+        "Image"=>"ecom/productimages/3.png",
+        "Quantity"=>13,
+        "Price"=>24.99],
+
+        "item4"=>["id"=>4,
+        "Name"=>"T-Shirt - Black",
+        "Description"=> "Relaxed, unisex fit that looks great on all body types. 100% premium combed and ring-spun cotton. Ultra-soft, breathable, and pre-shrunk for the perfect fit. Feed the Multitude graphic to support our mission.",
+        "Image"=>"ecom/productimages/4.png",
+        "Quantity"=>16,
+        "Price"=>24.99],
+
+        "item5"=>["id"=>5,
+        "Name"=>"2 Pair Mugs: Black and White",
+        "Description"=> "Crafted from smooth, high-quality ceramic clay that retains heat and prevents spills while enjoying coffee, tea, or hot cocoa. Ideal for everyday use, dishwasher safe.",
+        "Image"=>"ecom/productimages/5.png",
+        "Quantity"=>43,
+        "Price"=>9.99],
+
+        "item6"=>["id"=>6,
+        "Name"=>"2 Pair Metal Tumblers: Black and White",
+        "Description"=> " Etched straight through a tough, matte-powder coating. Built from food-grade 18/8 stainless steel that resists rust and metallic taste. Double-wall vacuum insulated body preserves drink temperatures, keeping iced drinks cold for up to 12 hours and coffee piping hot for 6 hours. Ideal for everyday use, dishwasher safe.",
+        "Image"=>"ecom/productimages/6.png",
+        "Quantity"=>15,
+        "Price"=>12.99],
+
+        "item7"=>["id"=>7,
+        "Name"=>"Hoodie - White",
+        "Description"=> "Crafted from a mid-weight cotton-poly fleece blend that feels luxuriously cozy on the inside and sleek on the outside. Ribbed cuffs and hem help retain shape and block out the cold while keeping the garment securely in place.",
+        "Image"=>"ecom/productimages/7.png",
+        "Quantity"=>15,
+        "Price"=>12.99],
+        
+        "item8"=>["id"=>8,
+        "Name"=>"Hoodie - Black",
+        "Description"=> "Crafted from a mid-weight cotton-poly fleece blend that feels luxuriously cozy on the inside and sleek on the outside. Ribbed cuffs and hem help retain shape and block out the cold while keeping the garment securely in place.",
+        "Image"=>"ecom/productimages/8.png",
+        "Quantity"=>19,
+        "Price"=>12.99],
+
+        "item9"=>["id"=>9,
+        "Name"=>"Crewneck Sweater - White",
+        "Description"=> "Crafted from a mid-weight cotton-poly fleece blend that feels luxuriously cozy on the inside and sleek on the outside. Ribbed cuffs and hem help retain shape and block out the cold while keeping the garment securely in place.",
+        "Image"=>"ecom/productimages/9.png",
+        "Quantity"=>8,
+        "Price"=>16.99],
+
+        "item10"=>["id"=>10,
+        "Name"=>"Crewneck Sweater - Black",
+        "Description"=> "Crafted from a mid-weight cotton-poly fleece blend that feels luxuriously cozy on the inside and sleek on the outside. Ribbed cuffs and hem help retain shape and block out the cold while keeping the garment securely in place.",
+        "Image"=>"ecom/productimages/10.png",
+        "Quantity"=>35,
+        "Price"=>16.99],
+    ];
